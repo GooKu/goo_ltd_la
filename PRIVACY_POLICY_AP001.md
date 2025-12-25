@@ -40,7 +40,7 @@
 
 ## 8. 聯繫我們
 若對本政策有任何疑問，或欲請求刪除遊戲數據，請透過以下管道聯繫：
-* **官方 Discord 伺服器**: [加入我們的煉金工房](https://discord.gg/rUzwx5HZ92)
+* **官方 Discord 伺服器**: [加入我們的煉金工房](https://discord.gg/gEb9VcEUr9)
 * **開發實體**: 古德數位有限公司 (Goo Co., Ltd)
 
 ---

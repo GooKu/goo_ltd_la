@@ -41,7 +41,7 @@
 
 ---
 **官方聯絡資訊：**
-* **官方 Discord 伺服器**：https://discord.gg/rUzwx5HZ92
+* **官方 Discord 伺服器**：https://discord.gg/gEb9VcEUr9
 * **開發實體**：古德數位有限公司 (Goo Co., Ltd)
 
 **發布日期：2025年12月25日**
