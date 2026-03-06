@@ -1,3 +1,9 @@
+---
+layout: legal_template
+project_name: "鍊金術師與瓶中獸 (Alchemist & Phial Spirit)"
+document_type: "服務條款 (Terms of Service)"
+language: "zh-tw"
+---
 # 《鍊金術師與瓶中獸》服務條款 (Terms of Service)
 
 歡迎使用由**古德數位有限公司 (Goo Co., Ltd)**（以下簡稱「本公司」）所開發之 Discord 遊戲機器人《鍊金術師與瓶中獸》（以下簡稱「本服務」）。

@@ -1,3 +1,9 @@
+---
+layout: legal_template
+project_name: "Alchemist & Phial Spirit"
+document_type: "Terms of Service"
+language: "en-us"
+---
 # Terms of Service for "Alchemist & Phial Spirit"
 
 Welcome to **Alchemist & Phial Spirit** (hereinafter referred to as "the Service"), a Discord game bot developed by **Goo Co., Ltd.** (hereinafter referred to as "the Company").

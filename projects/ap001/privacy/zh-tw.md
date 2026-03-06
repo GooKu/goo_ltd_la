@@ -1,3 +1,9 @@
+---
+layout: legal_template
+project_name: "鍊金術師與瓶中獸 (Alchemist & Phial Spirit)"
+document_type: "隱私權政策 (Privacy Policy)"
+language: "zh-tw"
+---
 # Privacy Policy (隱私權政策)
 
 **最後更新日期：2025年12月25日**

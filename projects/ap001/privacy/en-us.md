@@ -1,3 +1,9 @@
+---
+layout: legal_template
+project_name: "Alchemist & Phial Spirit"
+document_type: "Privacy Policy"
+language: "en-us"
+---
 # Privacy Policy for "Alchemist & Phial Spirit"
 
 **Last Updated: March 6, 2026**
