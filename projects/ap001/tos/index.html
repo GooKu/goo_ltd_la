@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting to Terms of Service...</title>
+    <script>
+        (function() {
+            const userLang = (navigator.language || 'en-us').toLowerCase();
+            let target = 'en-us';
+            if (userLang.startsWith('zh-tw') || userLang.startsWith('zh-hk')) target = 'zh-tw';
+            else if (userLang.startsWith('zh')) target = 'zh-cn';
+            else if (userLang.startsWith('ja')) target = 'ja-jp';
+
+            // 跳轉至同目錄下的語系檔案，例如 ./zh-tw.html
+            window.location.replace("./" + target + ".html");
+        })();
+    </script>
+</head>
+<body>
+    <p>Redirecting to Terms of Service... If not redirected, 
+       <a href="./en-us.html">click here</a>.</p>
+</body>
+</html>

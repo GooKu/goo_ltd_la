@@ -5,68 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alchemist & Phial Spirit - Legal Center</title>
     <style>
-        body {
-            background-color: #1a1b26;
-            color: #c0caf5;
-            font-family: "Segoe UI", "PingFang TC", sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-        .container {
-            background-color: #24283b;
-            border: 1px solid #414868;
-            padding: 2.5rem;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            max-width: 400px;
-            width: 90%;
-            text-align: center;
-        }
-        h1 { color: #e0af68; margin-bottom: 0.5rem; font-size: 1.5rem; }
-        p { color: #9ab1e1; margin-bottom: 2rem; font-size: 0.9rem; }
-        .nav-group { display: flex; flex-direction: column; gap: 15px; }
-        .btn {
-            display: block;
-            padding: 12px;
-            background: #414868;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 6px;
-            transition: all 0.3s;
-            font-weight: 500;
-        }
-        .btn:hover { background: #7aa2f7; transform: translateY(-2px); }
-        .lang-hint { margin-top: 2rem; font-size: 0.8rem; color: #565f89; }
+        body { background-color: #1a1b26; color: #c0caf5; font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+        .container { background-color: #24283b; border: 1px solid #414868; padding: 2rem; border-radius: 12px; text-align: center; max-width: 400px; }
+        h1 { color: #e0af68; margin-bottom: 2rem; }
+        .btn { display: block; padding: 15px; background: #414868; color: #fff; text-decoration: none; border-radius: 8px; margin-bottom: 10px; transition: 0.3s; }
+        .btn:hover { background: #7aa2f7; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Alchemist & Phial Spirit</h1>
-        <p>Legal Documents & Policies</p>
-        
-        <div class="nav-group">
-            <a href="javascript:void(0)" onclick="navigate('tos')" class="btn">Terms of Service (服務條款)</a>
-            <a href="javascript:void(0)" onclick="navigate('privacy')" class="btn">Privacy Policy (隱私權政策)</a>
-        </div>
-
-        <div class="lang-hint">
-            * System will auto-detect your language preference.
-        </div>
+        <a href="./tos/" class="btn">Terms of Service</a>
+        <a href="./privacy/" class="btn">Privacy Policy</a>
     </div>
-
-    <script>
-        function navigate(type) {
-            const userLang = (navigator.language || 'en-us').toLowerCase();
-            let target = 'en-us';
-            if (userLang.includes('zh-tw') || userLang.includes('zh-hk')) target = 'zh-tw';
-            else if (userLang.includes('zh')) target = 'zh-cn';
-            else if (userLang.includes('ja')) target = 'ja-jp';
-
-            window.location.href = `./${type}/${target}.html`;
-        }
-    </script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting to Privacy Policy...</title>    
+    <script>
+        (function() {
+            const userLang = (navigator.language || navigator.userLanguage || 'en-us').toLowerCase();
+            let target = 'en-us';
+            if (userLang.startsWith('zh-tw') || userLang.startsWith('zh-hk') || userLang.startsWith('zh-mo')) {
+                target = 'zh-tw';
+            } else if (userLang.startsWith('zh')) {
+                target = 'zh-cn';
+            } else if (userLang.startsWith('ja')) {
+                target = 'ja-jp';
+            }
+            window.location.replace("./" + target + ".html");
+        })();
+    </script>
+</head>
+<body>
+    <p>Redirecting to Privacy Policy...</p>
+    <p>
+        If you are not redirected, <a href="./en-us.html">click here</a>.
+    </p>
+</body>
+</html>
