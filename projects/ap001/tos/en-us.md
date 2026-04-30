@@ -16,7 +16,7 @@ Before using the Service, please read these Terms of Service (hereinafter referr
 
 ### Article 2: Service Content and Changes
 1. **Nature of the Game**: The Service is a simulation game where players obtain experience, craft potions, and cultivate "Phial Spirits" through dialogue interactions.
-2. **Paid Content**: The Service includes free content and paid value-added services, including but not limited to Action Point (AP) refills, subscription membership plans (e.g., Bronze/Silver tiers), and developer donation items.
+2. **Paid Content**: The Service includes free content and paid value-added services, including but not limited to subscription membership plans (e.g., Bronze/Silver tiers) and developer donation items.
 3. **Service Adjustments**: The Company reserves the right to adjust, update, limit, or stop parts of the Service at any time based on development needs or operational strategies without separate individual notice.
 
 ### Article 3: Payment and Virtual Goods Regulations
@@ -49,4 +49,4 @@ Users must comply with relevant laws and Discord Community Guidelines. The Compa
 * **Official Discord Server**: https://discord.gg/gEb9VcEUr9
 * **Entity**: Goo Co., Ltd.
 
-**Last Updated: March 6, 2026**
+**Last Updated: April 30, 2026**
